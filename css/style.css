@@ -1,3 +1,5 @@
+/* #region Essentials */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,3 +15,66 @@
 .flex {
     display: flex;
 }
+
+.fl {
+    float: left;
+}
+
+/* #endregion */
+
+/* #region Utility */
+
+/* #endregion */
+
+/* #region Spacers */
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+/* #endregion */
+
+/* #region Widths */
+
+.col100 {
+    width: 100%;
+}
+
+.col80 {
+    width: 80%;
+}
+
+.col50 {
+    width: 50%;
+}
+
+.col20 {
+    width: 20%;
+}
+
+/* #endregion */
+
+/* Colors */
+
+/* Texts */
+
+/* #region Debug */
+
+.debug header {
+    height: 20px;
+    background-color: aqua;
+}
+
+.debug .top_buttons {
+    background-color: blue;
+}
+
+/* #endregion */
