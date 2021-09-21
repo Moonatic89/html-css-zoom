@@ -118,6 +118,23 @@ body {
     margin-top: 1rem;
 }
 
+.debug .bot_buttons {
+    height: 60px;
+    background-color: black;
+}
+
+.debug .button {
+    background-color: chocolate;
+    width: 50px;
+    height: 60px;
+}
+
+.debug .button_big {
+    width: 100px;
+    background-color: chocolate;
+    height: 60px;
+}
+
 /* #endregion */
 
 /* #region Header */
@@ -125,6 +142,8 @@ body {
 /* #endregion */
 
 /* #region Main */
+
+/* #region Grid */
 
 .top_buttons {
     justify-content: flex-end;
@@ -143,6 +162,24 @@ body {
     width: 100%;
     padding: .5rem;
 }
+
+/* #endregion */
+
+/* #region Bottom Buttons */
+
+.bot_buttons {
+    justify-content: space-between;
+}
+
+.button {
+    margin: 0 1rem;
+}
+
+/* #endregion */
+
+/* #region Prefab */
+
+/* #endregion */
 
 /* #endregion */
 
