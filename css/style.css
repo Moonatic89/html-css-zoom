@@ -22,6 +22,7 @@
 
 body {
     min-width: 1440px;
+    background-color: black;
 }
 
 /* #endregion */
@@ -225,29 +226,49 @@ body {
 /* #region Grid */
 
 .main_body {
-    justify-content: space-between;
+    position: relative;
 }
 
 aside {
     padding: 0 2rem;
+    position: absolute;
+    top: 50%;
+    color: white;
+}
+
+aside.right {
+    right: 0%;
+}
+
+aside.left {
+    left: 0%;
+}
+
+aside.left a {
+    color: #7F7F7F;
+}
+
+aside.right a {
+    color: #39BBFC;
 }
 
 .grid_body {
+    margin: 2rem auto;
+    /* width: 80%; <- width much similar, but height is not, and vice versa */
+    width: 60%;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .user {
-    /* width: 20%;
-    height: 20%; */
     position: relative;
+    flex: 0 1 20%;
 }
 
 .user img {
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    /* padding: .5rem; */
+    width: 100%;
+    height: 100%;
+    padding: 0 2px;
 }
 
 .grid_textContainer {
@@ -269,7 +290,27 @@ aside {
 /* #region Bottom Buttons */
 
 .bot_buttons {
+    background-image: linear-gradient(#26282A, #1C1E20);
+    height: 60px;
+}
+
+.bot_buttons {
     justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.bot_buttons .fa-chevron-up {
+    font-size: 1rem;
+}
+
+.bot_buttons .button_text {
+    font-size: .9rem;
+}
+
+.bot_buttons .button {
+    text-align: center;
 }
 
 .button {
