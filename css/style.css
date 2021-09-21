@@ -110,6 +110,14 @@ body {
     background-color: brown;
 }
 
+.debug .grid_body {
+    background-color: crimson;
+    width: 90%;
+    /* height: 700px; */
+    margin: auto;
+    margin-top: 1rem;
+}
+
 /* #endregion */
 
 /* #region Header */
@@ -120,6 +128,20 @@ body {
 
 .top_buttons {
     justify-content: flex-end;
+}
+
+.grid_body {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user {
+    width: 20%;
+}
+
+.user img {
+    width: 100%;
+    padding: .5rem;
 }
 
 /* #endregion */
