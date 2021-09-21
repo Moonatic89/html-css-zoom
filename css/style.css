@@ -73,7 +73,24 @@ body {
 
 /* #endregion */
 
-/* Colors */
+/* #region Colors */
+
+.redish {
+    background-color: #fc605c;
+    border: 1px solid #de4846;
+}
+
+.yellowish {
+    background-color: #FDBE41;
+    border: 1px solid #DEA02D;
+}
+
+.greenish {
+    background-color: #35C94A;
+    border: 1px solid #21AA35;
+}
+
+/* #endregion */
 
 /* Texts */
 
@@ -138,6 +155,35 @@ body {
 /* #endregion */
 
 /* #region Header */
+
+.handler {
+    background-color: #dcdcdc;
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.handler_body {
+    position: relative;
+}
+
+.handler_buttons {
+    margin-left: 1rem;
+}
+
+.circle_button {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: .2rem;
+}
+
+.handler_text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 /* #endregion */
 
