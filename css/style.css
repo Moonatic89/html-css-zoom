@@ -20,11 +20,17 @@
     float: left;
 }
 
+body {
+    min-width: 1440px;
+}
+
+/* #endregion */
+
+/* #region Prefab */
+
 /* #endregion */
 
 /* #region Utility */
-
-/* #endregion */
 
 /* #region Spacers */
 
@@ -38,6 +44,11 @@
 
 .mt-5 {
     margin-top: 5rem;
+}
+
+.mside-1 {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 /* #endregion */
@@ -66,6 +77,16 @@
 
 /* Texts */
 
+/* #region Alignments */
+
+.align-r {
+    text-align: right;
+}
+
+/* #endregion */
+
+/* #endregion */
+
 /* #region Debug */
 
 .debug header {
@@ -76,5 +97,33 @@
 .debug .top_buttons {
     background-color: blue;
 }
+
+.debug .speaker_view {
+    height: 20px;
+    width: 60px;
+    background-color: brown;
+}
+
+.debug .full_screen {
+    height: 20px;
+    width: 25px;
+    background-color: brown;
+}
+
+/* #endregion */
+
+/* #region Header */
+
+/* #endregion */
+
+/* #region Main */
+
+.top_buttons {
+    justify-content: flex-end;
+}
+
+/* #endregion */
+
+/* #region Footer */
 
 /* #endregion */
